@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "load-flow"
+version = "0.1.0"
+description = ""
+authors = ["Arturo Bautista <artugro.artr@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.36"
+pytest = "^8.3.3"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
